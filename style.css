@@ -1,62 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Seu Nome</h1>
-        <p>Seu Cargo ou Profissão</p>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Uma breve descrição sobre você, sua formação e suas experiências profissionais.</p>
-    </section>
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
 
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Habilidade 1</li>
-            <li>Habilidade 2</li>
-            <li>Habilidade 3</li>
-            <li>Habilidade 4</li>
-        </ul>
-    </section>
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
 
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projeto">
-            <h3>Nome do Projeto 1</h3>
-            <p>Descrição do projeto 1.</p>
-        </div>
-        <div class="projeto">
-            <h3>Nome do Projeto 2</h3>
-            <p>Descrição do projeto 2.</p>
-        </div>
-        <!-- Adicione mais projetos conforme necessário -->
-    </section>
+header {
+  background-color: #1e88e5;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: seuemail@example.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/seuperfil" target="_blank">seuperfil</a></p>
-        <p>GitHub: <a href="https://github.com/seuperfil" target="_blank">seuperfil</a></p>
-    </section>
+header h1 {
+  font-size: 2.5rem;
+}
 
-    <footer>
-        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e88e5;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: #333;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
