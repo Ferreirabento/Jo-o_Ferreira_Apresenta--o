@@ -2,51 +2,61 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio de Análise de Dados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio João Bento - Análise de Dados</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <div class="container">
+  <aside class="sidebar">
+    <div class="profile-pic">
+      <img src="sua-foto.jpg" alt="João Bento" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    <header>
       <h1>João Bento</h1>
-      <p>Analista de Dados | Python | Excel | Power BI | SQL</p>
-    </div>
-  </header>
+      <p>Estudante de ADS | Analista de Dados | Freelancer</p>
+    </header>
 
-  <section class="sobre">
-    <div class="container">
+    <section id="sobre" class="section">
       <h2>Sobre Mim</h2>
-      <p>Sou apaixonado por transformar dados em decisões. Domino ferramentas como Python, Excel, Power BI e SQL para gerar insights que geram impacto real.</p>
-    </div>
-  </section>
+      <p>
+        Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por dados e tecnologia.  
+        Comecei como freelancer para ganhar experiência e hoje trabalho com análise, automação e criação de dashboards para ajudar empresas a tomar decisões mais inteligentes.
+      </p>
+    </section>
 
-  <section class="projetos">
-    <div class="container">
+    <section id="projetos" class="section">
       <h2>Projetos</h2>
-      <div class="card">
-        <h3>Análise de Vendas com Power BI</h3>
-        <p>Dashboard interativo com KPIs de faturamento, ticket médio e sazonalidade.</p>
-        <a href="https://link-do-seu-projeto" target="_blank">Ver Projeto</a>
+      <div class="gallery">
+        <div class="img-card">
+          <img src="planilha1.jpg" alt="Planilha de Vendas" />
+          <p>Dashboard de Vendas - Excel + Power BI</p>
+        </div>
+        <div class="img-card">
+          <img src="dashboard2.jpg" alt="Dashboard Financeiro" />
+          <p>Dashboard Financeiro - Automação Python</p>
+        </div>
+        <div class="img-card">
+          <img src="planilha3.jpg" alt="Análise de Dados" />
+          <p>Análise de Dados de Marketing</p>
+        </div>
       </div>
-      <div class="card">
-        <h3>Automação de Relatórios com Python</h3>
-        <p>Uso de pandas e openpyxl para gerar relatórios semanais automatizados em Excel.</p>
-        <a href="https://link-do-seu-projeto" target="_blank">Ver Projeto</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="contato">
-    <div class="container">
+    <section id="contato" class="section">
       <h2>Contato</h2>
       <p>Email: joao.bento@email.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">/seuusuario</a></p>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 João Bento - Todos os direitos reservados</p>
-  </footer>
+      <p>LinkedIn: <a href="https://linkedin.com/in/seuusuario" target="_blank">linkedin.com/in/seuusuario</a></p>
+    </section>
+  </main>
 </body>
 </html>
